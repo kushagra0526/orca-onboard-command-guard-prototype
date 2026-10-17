@@ -1,0 +1,115 @@
+{
+ "meta": {
+  "days": 60,
+  "conjunctions": 61,
+  "goals": 2837
+ },
+ "summary": {
+  "none": {
+   "LOW_BATTERY": 639,
+   "SAFE_MODE": 452,
+   "SUN_IN_CAMERA": 331,
+   "DATA_LOST": 236,
+   "NO_LINK": 32,
+   "CONJUNCTION": 54,
+   "violations": 1744,
+   "delivered_value": 1595,
+   "captured": 993,
+   "denied": 0,
+   "days_with_violation": 60
+  },
+  "static": {
+   "LOW_BATTERY": 463,
+   "SAFE_MODE": 269,
+   "SUN_IN_CAMERA": 218,
+   "DATA_LOST": 0,
+   "NO_LINK": 0,
+   "CONJUNCTION": 49,
+   "violations": 999,
+   "delivered_value": 1633,
+   "captured": 980,
+   "denied": 1218,
+   "days_with_violation": 60
+  },
+  "predictive": {
+   "LOW_BATTERY": 39,
+   "SAFE_MODE": 3,
+   "SUN_IN_CAMERA": 0,
+   "DATA_LOST": 0,
+   "NO_LINK": 0,
+   "CONJUNCTION": 3,
+   "violations": 45,
+   "delivered_value": 1508,
+   "captured": 986,
+   "denied": 1377,
+   "days_with_violation": 4
+  },
+  "idle_ref": {
+   "LOW_BATTERY": 24,
+   "SAFE_MODE": 2,
+   "SUN_IN_CAMERA": 0,
+   "DATA_LOST": 0,
+   "NO_LINK": 0,
+   "CONJUNCTION": 1,
+   "violations": 27,
+   "delivered_value": 0,
+   "captured": 0,
+   "denied": 2837,
+   "days_with_violation": 3
+  }
+ },
+ "predictive_bad_days": [
+  [
+   8,
+   {
+    "LOW_BATTERY": 14,
+    "SAFE_MODE": 1,
+    "SUN_IN_CAMERA": 0,
+    "DATA_LOST": 0,
+    "NO_LINK": 0,
+    "CONJUNCTION": 2
+   },
+   0.94,
+   0.966
+  ],
+  [
+   29,
+   {
+    "LOW_BATTERY": 9,
+    "SAFE_MODE": 1,
+    "SUN_IN_CAMERA": 0,
+    "DATA_LOST": 0,
+    "NO_LINK": 0,
+    "CONJUNCTION": 0
+   },
+   0.93,
+   0.974
+  ],
+  [
+   31,
+   {
+    "LOW_BATTERY": 4,
+    "SAFE_MODE": 0,
+    "SUN_IN_CAMERA": 0,
+    "DATA_LOST": 0,
+    "NO_LINK": 0,
+    "CONJUNCTION": 0
+   },
+   1.013,
+   0.905
+  ],
+  [
+   45,
+   {
+    "LOW_BATTERY": 12,
+    "SAFE_MODE": 1,
+    "SUN_IN_CAMERA": 0,
+    "DATA_LOST": 0,
+    "NO_LINK": 0,
+    "CONJUNCTION": 1
+   },
+   0.966,
+   0.951
+  ]
+ ]
+}

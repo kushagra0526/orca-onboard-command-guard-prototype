@@ -1,0 +1,388 @@
+{
+ "meta": {
+  "days": 200,
+  "conjunctions": 311,
+  "goals": 13587
+ },
+ "summary": {
+  "none": {
+   "LOW_BATTERY": 2367,
+   "SAFE_MODE": 1609,
+   "SUN_IN_CAMERA": 1100,
+   "DATA_LOST": 3310,
+   "NO_LINK": 208,
+   "CONJUNCTION": 269,
+   "violations": 8863,
+   "delivered_value": 5156,
+   "captured": 3646,
+   "denied": 0,
+   "days_with_violation": 200
+  },
+  "static": {
+   "LOW_BATTERY": 1332,
+   "SAFE_MODE": 776,
+   "SUN_IN_CAMERA": 463,
+   "DATA_LOST": 0,
+   "NO_LINK": 0,
+   "CONJUNCTION": 254,
+   "violations": 2825,
+   "delivered_value": 5804,
+   "captured": 3883,
+   "denied": 7840,
+   "days_with_violation": 196
+  },
+  "predictive": {
+   "LOW_BATTERY": 285,
+   "SAFE_MODE": 104,
+   "SUN_IN_CAMERA": 0,
+   "DATA_LOST": 0,
+   "NO_LINK": 0,
+   "CONJUNCTION": 18,
+   "violations": 407,
+   "delivered_value": 4671,
+   "captured": 3482,
+   "denied": 8474,
+   "days_with_violation": 25
+  },
+  "idle_ref": {
+   "LOW_BATTERY": 236,
+   "SAFE_MODE": 96,
+   "SUN_IN_CAMERA": 0,
+   "DATA_LOST": 0,
+   "NO_LINK": 0,
+   "CONJUNCTION": 16,
+   "violations": 348,
+   "delivered_value": 0,
+   "captured": 0,
+   "denied": 13587,
+   "days_with_violation": 20
+  }
+ },
+ "predictive_bad_days": [
+  [
+   70004,
+   {
+    "LOW_BATTERY": 13,
+    "SAFE_MODE": 1,
+    "SUN_IN_CAMERA": 0,
+    "DATA_LOST": 0,
+    "NO_LINK": 0,
+    "CONJUNCTION": 1
+   },
+   0.88,
+   0.923
+  ],
+  [
+   70012,
+   {
+    "LOW_BATTERY": 14,
+    "SAFE_MODE": 1,
+    "SUN_IN_CAMERA": 0,
+    "DATA_LOST": 0,
+    "NO_LINK": 0,
+    "CONJUNCTION": 1
+   },
+   0.86,
+   0.929
+  ],
+  [
+   70018,
+   {
+    "LOW_BATTERY": 4,
+    "SAFE_MODE": 1,
+    "SUN_IN_CAMERA": 0,
+    "DATA_LOST": 0,
+    "NO_LINK": 0,
+    "CONJUNCTION": 0
+   },
+   0.851,
+   0.868
+  ],
+  [
+   70019,
+   {
+    "LOW_BATTERY": 15,
+    "SAFE_MODE": 1,
+    "SUN_IN_CAMERA": 0,
+    "DATA_LOST": 0,
+    "NO_LINK": 0,
+    "CONJUNCTION": 3
+   },
+   0.912,
+   0.953
+  ],
+  [
+   70024,
+   {
+    "LOW_BATTERY": 14,
+    "SAFE_MODE": 12,
+    "SUN_IN_CAMERA": 0,
+    "DATA_LOST": 0,
+    "NO_LINK": 0,
+    "CONJUNCTION": 0
+   },
+   0.897,
+   0.945
+  ],
+  [
+   70029,
+   {
+    "LOW_BATTERY": 15,
+    "SAFE_MODE": 13,
+    "SUN_IN_CAMERA": 0,
+    "DATA_LOST": 0,
+    "NO_LINK": 0,
+    "CONJUNCTION": 0
+   },
+   1.004,
+   0.903
+  ],
+  [
+   70049,
+   {
+    "LOW_BATTERY": 15,
+    "SAFE_MODE": 15,
+    "SUN_IN_CAMERA": 0,
+    "DATA_LOST": 0,
+    "NO_LINK": 0,
+    "CONJUNCTION": 0
+   },
+   1.036,
+   0.874
+  ],
+  [
+   70056,
+   {
+    "LOW_BATTERY": 1,
+    "SAFE_MODE": 0,
+    "SUN_IN_CAMERA": 0,
+    "DATA_LOST": 0,
+    "NO_LINK": 0,
+    "CONJUNCTION": 0
+   },
+   0.903,
+   0.982
+  ],
+  [
+   70062,
+   {
+    "LOW_BATTERY": 12,
+    "SAFE_MODE": 11,
+    "SUN_IN_CAMERA": 0,
+    "DATA_LOST": 0,
+    "NO_LINK": 0,
+    "CONJUNCTION": 0
+   },
+   0.978,
+   0.942
+  ],
+  [
+   70072,
+   {
+    "LOW_BATTERY": 13,
+    "SAFE_MODE": 1,
+    "SUN_IN_CAMERA": 0,
+    "DATA_LOST": 0,
+    "NO_LINK": 0,
+    "CONJUNCTION": 1
+   },
+   0.96,
+   0.992
+  ],
+  [
+   70095,
+   {
+    "LOW_BATTERY": 15,
+    "SAFE_MODE": 1,
+    "SUN_IN_CAMERA": 0,
+    "DATA_LOST": 0,
+    "NO_LINK": 0,
+    "CONJUNCTION": 1
+   },
+   0.864,
+   0.953
+  ],
+  [
+   70098,
+   {
+    "LOW_BATTERY": 12,
+    "SAFE_MODE": 10,
+    "SUN_IN_CAMERA": 0,
+    "DATA_LOST": 0,
+    "NO_LINK": 0,
+    "CONJUNCTION": 0
+   },
+   0.947,
+   0.905
+  ],
+  [
+   70101,
+   {
+    "LOW_BATTERY": 7,
+    "SAFE_MODE": 0,
+    "SUN_IN_CAMERA": 0,
+    "DATA_LOST": 0,
+    "NO_LINK": 0,
+    "CONJUNCTION": 0
+   },
+   0.942,
+   0.862
+  ],
+  [
+   70111,
+   {
+    "LOW_BATTERY": 8,
+    "SAFE_MODE": 0,
+    "SUN_IN_CAMERA": 0,
+    "DATA_LOST": 0,
+    "NO_LINK": 0,
+    "CONJUNCTION": 0
+   },
+   0.857,
+   0.909
+  ],
+  [
+   70114,
+   {
+    "LOW_BATTERY": 14,
+    "SAFE_MODE": 2,
+    "SUN_IN_CAMERA": 0,
+    "DATA_LOST": 0,
+    "NO_LINK": 0,
+    "CONJUNCTION": 3
+   },
+   0.863,
+   0.915
+  ],
+  [
+   70115,
+   {
+    "LOW_BATTERY": 11,
+    "SAFE_MODE": 2,
+    "SUN_IN_CAMERA": 0,
+    "DATA_LOST": 0,
+    "NO_LINK": 0,
+    "CONJUNCTION": 1
+   },
+   0.901,
+   0.939
+  ],
+  [
+   70121,
+   {
+    "LOW_BATTERY": 14,
+    "SAFE_MODE": 1,
+    "SUN_IN_CAMERA": 0,
+    "DATA_LOST": 0,
+    "NO_LINK": 0,
+    "CONJUNCTION": 0
+   },
+   0.917,
+   0.961
+  ],
+  [
+   70123,
+   {
+    "LOW_BATTERY": 13,
+    "SAFE_MODE": 13,
+    "SUN_IN_CAMERA": 0,
+    "DATA_LOST": 0,
+    "NO_LINK": 0,
+    "CONJUNCTION": 0
+   },
+   1.004,
+   0.952
+  ],
+  [
+   70140,
+   {
+    "LOW_BATTERY": 12,
+    "SAFE_MODE": 2,
+    "SUN_IN_CAMERA": 0,
+    "DATA_LOST": 0,
+    "NO_LINK": 0,
+    "CONJUNCTION": 0
+   },
+   0.867,
+   0.924
+  ],
+  [
+   70152,
+   {
+    "LOW_BATTERY": 14,
+    "SAFE_MODE": 1,
+    "SUN_IN_CAMERA": 0,
+    "DATA_LOST": 0,
+    "NO_LINK": 0,
+    "CONJUNCTION": 3
+   },
+   0.886,
+   0.855
+  ],
+  [
+   70158,
+   {
+    "LOW_BATTERY": 13,
+    "SAFE_MODE": 1,
+    "SUN_IN_CAMERA": 0,
+    "DATA_LOST": 0,
+    "NO_LINK": 0,
+    "CONJUNCTION": 1
+   },
+   0.908,
+   0.908
+  ],
+  [
+   70165,
+   {
+    "LOW_BATTERY": 14,
+    "SAFE_MODE": 13,
+    "SUN_IN_CAMERA": 0,
+    "DATA_LOST": 0,
+    "NO_LINK": 0,
+    "CONJUNCTION": 1
+   },
+   1.04,
+   0.865
+  ],
+  [
+   70173,
+   {
+    "LOW_BATTERY": 3,
+    "SAFE_MODE": 0,
+    "SUN_IN_CAMERA": 0,
+    "DATA_LOST": 0,
+    "NO_LINK": 0,
+    "CONJUNCTION": 0
+   },
+   0.857,
+   0.964
+  ],
+  [
+   70174,
+   {
+    "LOW_BATTERY": 13,
+    "SAFE_MODE": 2,
+    "SUN_IN_CAMERA": 0,
+    "DATA_LOST": 0,
+    "NO_LINK": 0,
+    "CONJUNCTION": 2
+   },
+   0.857,
+   0.993
+  ],
+  [
+   70186,
+   {
+    "LOW_BATTERY": 6,
+    "SAFE_MODE": 0,
+    "SUN_IN_CAMERA": 0,
+    "DATA_LOST": 0,
+    "NO_LINK": 0,
+    "CONJUNCTION": 0
+   },
+   1.032,
+   0.927
+  ]
+ ]
+}

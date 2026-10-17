@@ -1,0 +1,26 @@
+held-out: 200 days, 13587 AI goals, 311 conjunctions
+  policy      LOW_BATTERY   SAFE_MODE SUN_IN_CAME   DATA_LOST     NO_LINK CONJUNCTION  total bad days captured delivered denied
+  none               2367        1609        1100        3310         208         269   8863      200     3646      5156      0
+  static             1332         776         463           0           0         254   2825      196     3883      5804   7840
+  predictive          285         104           0           0           0          18    407       25     3482      4671   8474
+  idle_ref            236          96           0           0           0          16    348       20        0         0  13587
+
+predictive: days that still had a violation (seed, counts, truth/nominal solar, truth/nominal battery):
+   (70004, {'LOW_BATTERY': 13, 'SAFE_MODE': 1, 'SUN_IN_CAMERA': 0, 'DATA_LOST': 0, 'NO_LINK': 0, 'CONJUNCTION': 1}, 0.88, 0.923)
+   (70012, {'LOW_BATTERY': 14, 'SAFE_MODE': 1, 'SUN_IN_CAMERA': 0, 'DATA_LOST': 0, 'NO_LINK': 0, 'CONJUNCTION': 1}, 0.86, 0.929)
+   (70018, {'LOW_BATTERY': 4, 'SAFE_MODE': 1, 'SUN_IN_CAMERA': 0, 'DATA_LOST': 0, 'NO_LINK': 0, 'CONJUNCTION': 0}, 0.851, 0.868)
+   (70019, {'LOW_BATTERY': 15, 'SAFE_MODE': 1, 'SUN_IN_CAMERA': 0, 'DATA_LOST': 0, 'NO_LINK': 0, 'CONJUNCTION': 3}, 0.912, 0.953)
+   (70024, {'LOW_BATTERY': 14, 'SAFE_MODE': 12, 'SUN_IN_CAMERA': 0, 'DATA_LOST': 0, 'NO_LINK': 0, 'CONJUNCTION': 0}, 0.897, 0.945)
+   (70029, {'LOW_BATTERY': 15, 'SAFE_MODE': 13, 'SUN_IN_CAMERA': 0, 'DATA_LOST': 0, 'NO_LINK': 0, 'CONJUNCTION': 0}, 1.004, 0.903)
+   (70049, {'LOW_BATTERY': 15, 'SAFE_MODE': 15, 'SUN_IN_CAMERA': 0, 'DATA_LOST': 0, 'NO_LINK': 0, 'CONJUNCTION': 0}, 1.036, 0.874)
+   (70056, {'LOW_BATTERY': 1, 'SAFE_MODE': 0, 'SUN_IN_CAMERA': 0, 'DATA_LOST': 0, 'NO_LINK': 0, 'CONJUNCTION': 0}, 0.903, 0.982)
+   (70062, {'LOW_BATTERY': 12, 'SAFE_MODE': 11, 'SUN_IN_CAMERA': 0, 'DATA_LOST': 0, 'NO_LINK': 0, 'CONJUNCTION': 0}, 0.978, 0.942)
+   (70072, {'LOW_BATTERY': 13, 'SAFE_MODE': 1, 'SUN_IN_CAMERA': 0, 'DATA_LOST': 0, 'NO_LINK': 0, 'CONJUNCTION': 1}, 0.96, 0.992)
+   (70095, {'LOW_BATTERY': 15, 'SAFE_MODE': 1, 'SUN_IN_CAMERA': 0, 'DATA_LOST': 0, 'NO_LINK': 0, 'CONJUNCTION': 1}, 0.864, 0.953)
+   (70098, {'LOW_BATTERY': 12, 'SAFE_MODE': 10, 'SUN_IN_CAMERA': 0, 'DATA_LOST': 0, 'NO_LINK': 0, 'CONJUNCTION': 0}, 0.947, 0.905)
+   (70101, {'LOW_BATTERY': 7, 'SAFE_MODE': 0, 'SUN_IN_CAMERA': 0, 'DATA_LOST': 0, 'NO_LINK': 0, 'CONJUNCTION': 0}, 0.942, 0.862)
+   (70111, {'LOW_BATTERY': 8, 'SAFE_MODE': 0, 'SUN_IN_CAMERA': 0, 'DATA_LOST': 0, 'NO_LINK': 0, 'CONJUNCTION': 0}, 0.857, 0.909)
+   (70114, {'LOW_BATTERY': 14, 'SAFE_MODE': 2, 'SUN_IN_CAMERA': 0, 'DATA_LOST': 0, 'NO_LINK': 0, 'CONJUNCTION': 3}, 0.863, 0.915)
+   (70115, {'LOW_BATTERY': 11, 'SAFE_MODE': 2, 'SUN_IN_CAMERA': 0, 'DATA_LOST': 0, 'NO_LINK': 0, 'CONJUNCTION': 1}, 0.901, 0.939)
+   (70121, {'LOW_BATTERY': 14, 'SAFE_MODE': 1, 'SUN_IN_CAMERA': 0, 'DATA_LOST': 0, 'NO_LINK': 0, 'CONJUNCTION': 0}, 0.917, 0.961)
+   (70123, {'LOW_BATTERY': 13, 'SAFE_MODE
